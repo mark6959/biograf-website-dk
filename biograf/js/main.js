@@ -22,9 +22,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 // Add movie details
                 movieCard.innerHTML = `
+                    <a href="movietemplate.html">
                     ${thumbnail}
                     <h3>${movie.title}</h3>
                     <p><strong>Year:</strong> ${movie.year}</p>
+                    </a>
                 `;
 
                 // Add click event to store movie data in localStorage
