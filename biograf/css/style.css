@@ -168,6 +168,69 @@ h1 {
     margin-bottom: 1.25rem; 
 }
 
+/* General content styling */
+.content {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.content h1, .content h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.content p {
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+
+/* Contact form styling */
+.contact-form, .newsletter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.contact-form label, .newsletter-form label {
+    font-weight: bold;
+}
+
+.contact-form input, .contact-form textarea, .newsletter-form input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact-form button, .newsletter-form button {
+    padding: 0.75rem;
+    font-size: 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover, .newsletter-form button:hover {
+    background-color: #555;
+}
+
+/* Success message styling */
+.success-message {
+    margin-top: 1rem;
+    color: green;
+    font-weight: bold;
+    text-align: center;
+}
+
 /* Media queries for smaller screens */
 @media (max-width: 48rem) { 
     .top-bar {
