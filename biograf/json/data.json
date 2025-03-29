@@ -1,5 +1,6 @@
 [
     { 
+      "id": 1,
       "title": "Den rige enke",
       "genres": ["Romantik", "Dansk", "Drama", "Komedie", "Familie"],
       "year": 1962,
