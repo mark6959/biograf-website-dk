@@ -1,5 +1,6 @@
 /* General body styling */
 body {
+    padding-top: 60px;
     margin: 0;
     font-family: Arial, sans-serif;
     box-sizing: border-box;
@@ -8,19 +9,27 @@ body {
 
 /* Top bar styling */
 .top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+    z-index: 1000;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #333;
     color: white;
-    padding: 0.625rem 5%; 
+    padding: 0.625rem 1rem;
+    box-sizing: border-box; 
 }
 
 .top-bar a {
     color: white;
     text-decoration: none;
-    font-size: 1rem; 
-    margin: 0 0.625rem; 
+    font-size: 1rem;
+    margin: 0 0.625rem;
+    white-space: nowrap; 
 }
 
 .top-bar a:hover {
@@ -99,6 +108,53 @@ body {
 .movie-card h3 {
     font-size: 1.2rem; 
     margin: 0.625rem 0;
+}
+
+/* Movie details page styles */
+.movie-details {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.25rem;
+}
+
+.movie-info {
+    width: 60%;
+}
+
+.movie-info img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.seat-selection {
+    width: 35%;
+    text-align: center;
+}
+
+.seats-grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.seat {
+    width: 2rem;
+    height: 2rem;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #999;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.seat:hover {
+    background-color: #666;
+    color: white;
 }
 
 /* Responsive typography */

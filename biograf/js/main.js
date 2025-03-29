@@ -20,21 +20,15 @@ document.addEventListener("DOMContentLoaded", () => {
                     ? `<img src="${movie.thumbnail}" alt="${movie.title}">`
                     : `<div style="width:100%;height:200px;background:#ccc;display:flex;align-items:center;justify-content:center;">No Image</div>`;
 
-                // Add movie details
+                // Add movie details and make the card clickable
                 movieCard.innerHTML = `
-                    <a href="movietemplate.html">
-                    ${thumbnail}
-                    <h3>${movie.title}</h3>
-                    <p><strong>Year:</strong> ${movie.year}</p>
+                    <a href="movie-details.html?id=${movie.id}" style="text-decoration: none; color: inherit;">
+                        ${thumbnail}
+                        <h3>${movie.title}</h3>
+                        <p><strong>Year:</strong> ${movie.year}</p>
                     </a>
-                    
                 `;
 
-                // Add click event to store movie data in localStorage
-                movieCard.addEventListener("click", () => {
-                    localStorage.setItem("selectedMovieId", movie.id);
-                });
-                
                 // Append the movie card to the grid
                 moviesGrid.appendChild(movieCard);
             });
