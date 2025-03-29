@@ -1,5 +1,11 @@
 document.addEventListener("DOMContentLoaded", () => {
     const selectedId = localStorage.getItem("selectedMovieId");
+    if (!selectedId) {
+        console.error("No movie selected. Redirecting to movies page.");
+        window.location.href = "movies.html"; // Redirect to movies page if no movie is selected
+        return;
+    }
+
     const ticket = document.getElementById("buytickets");
 
     fetch("json/data.json")

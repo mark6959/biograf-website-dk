@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movies</title>
     <link rel="stylesheet" href="css/style.css">
-    
 </head>
 <body>
     <div class="top-bar">
@@ -15,8 +14,49 @@
         </a>
         <a href="kontakt.html">Kontakt</a>
     </div>
+
     <h1>Alle Film</h1>
+
+    <!-- Search bar -->
+    <div class="search-bar">
+        <input type="text" id="search-input" placeholder="Søg efter film...">
+    </div>
+
+    <div class="filter-section">
+        <button id="filter-button">Filtrer</button>
+        <div id="filter-panel" style="display: none;">
+            <h3>Filtrer efter:</h3>
+
+            <!-- Genres -->
+            <h4>Genre</h4>
+            <div id="genre-filters">
+                <label><input type="checkbox" value="Dansk"> Dansk</label>
+                <label><input type="checkbox" value="Komedie"> Komedie</label>
+                <label><input type="checkbox" value="Drama"> Drama</label>
+                <label><input type="checkbox" value="Familie"> Familie</label>
+                <label><input type="checkbox" value="Western"> Western</label>
+            </div>
+
+            <!-- Age Rating -->
+            <h4>Aldersgrænse</h4>
+            <div id="age-rating-filters">
+                <label><input type="checkbox" value="Tilladt for alle"> Tilladt for alle</label>
+            </div>
+
+            <!-- Year -->
+            <h4>År</h4>
+            <div id="year-filters">
+                <label><input type="checkbox" value="1960"> 1960</label>
+                <label><input type="checkbox" value="1970"> 1970</label>
+                <label><input type="checkbox" value="1980"> 1980</label>
+            </div>
+
+            <button id="apply-filters">Anvend Filtre</button>
+        </div>
+    </div>
+
     <div class="movies-grid" id="movies-grid"></div>
+
     <script src="js/main.js"></script>
 </body>
 </html>
