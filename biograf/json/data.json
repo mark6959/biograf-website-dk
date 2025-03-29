@@ -19,6 +19,7 @@
       "day": "Mandag"
     },
     {
+      "id": 2,
       "title": "Cirkusrevyen 67",
       "genres": ["Dansk", "Musical", "Komedie"],
       "year": 1967,
@@ -37,6 +38,7 @@
       "day": "Tirsdag"
     },
     {
+      "id": 3,
       "title": "Styrmand Karlsen",
       "genres": ["Dansk", "Komedie"],
       "year": 1958,
@@ -56,6 +58,7 @@
       "day": "Onsdag"
     },
     {
+      "id": 4,
       "title": "Den kære familie",
       "genres": ["Dansk", "Komedie"],
       "year": 1962,
@@ -74,6 +77,7 @@
       "day": "Torsdag"
     },
     {
+      "id": 5,
       "title": "Far til fire på Bornholm",
       "genres": ["Dansk", "Børn", "Familie"],
       "year": 1959,
@@ -92,6 +96,7 @@
       "day": "Fredag"
     },
     {
+      "id": 6,
       "title": "Olsen Bandens sidste stik",
       "genres": ["Dansk", "Komedie"],
       "year": 1999,
@@ -110,6 +115,7 @@
       "day": "Fredag"
     },
     {
+      "id": 7,
       "title": "Der brænder en ild",
       "genres": ["Dansk", "Komedie"],
       "year": 1962,
@@ -128,6 +134,7 @@
       "day": "Lørdag"
     },
     {
+      "id": 8,
       "title": "Præriens skrappe drenge",
       "genres": ["Western", "Dansk", "Komedie", "Familie"],
       "year": 1970,
@@ -146,6 +153,7 @@
       "day": "Søndag"
     },
     {
+      "id": 9,
       "title": "Nyhavns glade gutter",
       "genres": ["Dansk", "Komedie"],
       "year": 1967,
@@ -164,6 +172,7 @@
       "day": "Lørdag"
     },
     {
+      "id": 10,
       "title": "Baronessen fra benzintanken",
       "genres": ["Dansk", "Komedie"],
       "year": 1960,
@@ -182,6 +191,7 @@
       "day": "Søndag"
     },
     {
+      "id": 11,
       "title": "Landsbylægen",
       "genres": ["Romantik", "Dansk", "Drama"],
       "year": 1961,
@@ -200,6 +210,7 @@
       "day": "Mandag"
     },
     {
+      "id": 12,
       "title": "Far til fire i sneen",
       "genres": ["Dansk", "Børn", "Familie"],
       "year": 1954,
@@ -218,6 +229,7 @@
       "day": "Tirsdag"
     },
     {
+      "id": 13,
       "title": "Fætrene på Torndal",
       "genres": ["Dansk", "Komedie"],
       "year": 1973,
@@ -236,6 +248,7 @@
       "day": "Onsdag"
     },
     {
+      "id": 14,
         "title": "Min søsters børn",
         "genres": ["Dansk", "Børn", "Komedie","Familie"],
         "year": 1966,
@@ -254,6 +267,7 @@
         "day": "Torsdag"
     },
     {
+      "id": 15,
       "title": "Guld til præriens skrappe drenge",
       "genres": ["Western", "Dansk", "Komedie"],
       "year": 1971,
@@ -272,6 +286,7 @@
       "day": "Fredag"
     },
     {
+      "id": 16,
       "title": "Ballade på Christianshavn",
       "genres": ["Dansk", "Komedie"],
       "year": 1971,
@@ -290,6 +305,7 @@
       "day": "Lørdag"
     },
     {
+      "id": 17,
       "title": "Soldaterkammerater På Vagt",
       "genres": ["Dansk", "Komedie", "Familie"],
       "year": 1960,
@@ -308,6 +324,7 @@
       "day": "Fredag"
     },
     {
+      "id": 18,
       "title": "Far til fire på Bornholm",
       "genres": ["Dansk", "Børn", "Familie"],
       "year": 1959,
@@ -326,6 +343,7 @@
       "day": "Søndag"
     },
     {
+      "id": 19,
       "title": "Bruden fra Dragstrup",
       "genres": ["Romantik", "Dansk", "Komedie"],
       "year": 1955,
@@ -344,6 +362,7 @@
       "day": "Lørdag"
     },
     {
+      "id": 20,
       "title": "Sømænd og svigermødre",
       "genres": ["Dansk", "Komedie"],
       "year": 1962,
@@ -362,6 +381,7 @@
       "day": "Søndag"
     },
     {
+      "id": 21,
       "title": "Olsen Banden i Jylland",
       "genres": ["Dansk", "Komedie"],
       "year": 1971,
@@ -380,6 +400,7 @@
       "day": "Mandag"
     },
     {
+      "id": 22,
       "title": "Mosekongen",
       "genres": ["Dansk", "Drama", "Komedie"],
       "year": 1950,
@@ -398,6 +419,7 @@
       "day": "Tirsdag"
     },
     {
+      "id": 23,
       "title": "Far til fire med fuld musik",
       "genres": ["Dansk", "Børn", "Familie"],
       "year": 1961,
@@ -416,6 +438,7 @@
       "day": "Onsdag"
     },
     {
+      "id": 24,
       "title": "Olsen Banden",
       "genres": ["Dansk", "Komedie"],
       "year": 1968,
@@ -434,6 +457,7 @@
       "day": "Torsdag"
     },
     {
+      "id": 25,
       "title": "Onkel Bill fra New York",
       "genres": ["Dansk", "Komedie"],
       "year": 1960,
@@ -452,6 +476,7 @@
       "day": "Fredag"
     },
     {
+      "id": 26,
       "title": "Far laver sovsen",
       "genres": ["Dansk", "Komedie"],
       "year": 1967,
