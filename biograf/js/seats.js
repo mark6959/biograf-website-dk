@@ -1,9 +1,29 @@
 document.addEventListener("DOMContentLoaded", () => {
     const seatContainer = document.querySelector(".seat-container");
     const confirmBtn = document.getElementById("confirmSelection");
-    
+
+    // Switch statement til valg af sal-størrelse
+
     const rows = 5; // Antal rækker
     const cols = 8; // Antal sæder per række
+
+    const hall = localStorage.getItem("selectedHall")
+
+    switch(hall) {
+        case 1 :
+            rows = 1;
+            cols = 3;
+            break;
+        
+        case 5 :
+            rows = 7;
+            cols = 10;
+            break;
+
+        default :
+            break;
+    }
+    
     let selectedSeats = new Set();
 
     // Simuler nogle optagede sæder
