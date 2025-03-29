@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     const selectedId = localStorage.getItem("selectedMovieId");
+    const ticket = document.getElementById("buytickets");
 
     fetch("json/data.json")
         .then(response => {
@@ -15,6 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 return;
             }
 
+            document.getElementById("sitetitle").textContent = movie.title;
             document.getElementById("thumbnail").src = movie.thumbnail;
             document.getElementById("beskrivelse").textContent = movie.description;
             document.getElementById("kategori").textContent = movie.genres;
@@ -26,5 +28,12 @@ document.addEventListener("DOMContentLoaded", () => {
             document.getElementById("sal").textContent = movie.hall;
             document.getElementById("dag").textContent = movie.day;
             document.getElementById("tidspunkt").textContent = movie.time;
+
+            // Add click event to store movie data in localStorage
+            ticket.addEventListener("click", () => {
+                localStorage.setItem("selectedHall", movie.hall);
+            });
+
         }) 
+
 });

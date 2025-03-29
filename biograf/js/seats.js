@@ -4,30 +4,26 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Switch statement til valg af sal-størrelse
 
-    const rows = 5; // Antal rækker
-    const cols = 8; // Antal sæder per række
+    let rows = 5; // Antal rækker
+    let cols = 8; // Antal sæder per række
 
     const hall = localStorage.getItem("selectedHall")
-
-    switch(hall) {
-        case 1 :
-            rows = 1;
-            cols = 3;
-            break;
-        
-        case 5 :
-            rows = 7;
-            cols = 10;
-            break;
-
-        default :
-            break;
-    }
     
+    if(hall == 1)
+    {
+        rows = 1;
+        cols = 3;
+    }
+    else if (hall == 5)
+    {
+        rows = 7;
+        cols = 10;
+    }
+
     let selectedSeats = new Set();
 
     // Simuler nogle optagede sæder
-    let bookedSeats = new Set(["1-3", "2-5", "3-6", "4-2"]); 
+    let bookedSeats = new Set(["1-3", "2-3"]); 
 
     // Hent tidligere valgte sæder fra LocalStorage
     const savedSeats = JSON.parse(localStorage.getItem("selectedSeats")) || [];
