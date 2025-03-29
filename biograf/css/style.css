@@ -48,6 +48,11 @@ body {
     display: block;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 /* Main content styling */
 .main-content {
     padding: 1.25rem 5%; 
