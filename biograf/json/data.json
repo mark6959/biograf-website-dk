@@ -12,7 +12,10 @@
       "subtitles": ["dansk"],
       "format": "HD",
       "original_title": "Den rige enke",
-      "thumbnail": "images/filmthumbnails/denrigeenke.jpg"
+      "thumbnail": "images/filmthumbnails/denrigeenke.jpg",
+      "hall": "1",
+      "time": "12:45",
+      "day": "Mandag"
     },
     {
       "title": "Cirkusrevyen 67",
@@ -27,7 +30,10 @@
       "subtitles": ["dansk"],
       "format": "HD",
       "original_title": "Cirkusrevyen 67",
-      "thumbnail": null
+      "thumbnail": null,
+      "hall": "2",
+      "time": "07:45",
+      "day": "Tirsdag"
     },
     {
       "title": "Styrmand Karlsen",
@@ -43,7 +49,10 @@
       "format": "HD",
       "original_title": "Styrmand Karlsen",
       "content_advisory": "Indeholder negative skildringer og stødende indhold om mennesker og/eller kulturer...",
-      "thumbnail": null
+      "thumbnail": null,
+      "hall": "3",
+      "time": "18:35",
+      "day": "Onsdag"
     },
     {
       "title": "Den kære familie",
@@ -58,7 +67,10 @@
       "subtitles": ["dansk"],
       "format": "HD",
       "original_title": "Den kære familie",
-      "thumbnail": null
+      "thumbnail": null,
+      "hall": "4",
+      "time": "21:40",
+      "day": "Torsdag"
     },
     {
       "title": "Far til fire på Bornholm",
@@ -73,7 +85,10 @@
       "subtitles": ["dansk"],
       "format": "HD",
       "original_title": "Far til fire på Bornholm",
-      "thumbnail": null
+      "thumbnail": null,
+      "hall": "5",
+      "time": "02:20",
+      "day": "Fredag"
     },
     {
       "title": "Olsen Bandens sidste stik",
@@ -88,7 +103,10 @@
       "subtitles": ["dansk"],
       "format": "HD",
       "original_title": "Olsen Bandens sidste stik",
-      "thumbnail": null
+      "thumbnail": null,
+      "hall": "1",
+      "time": "11:20",
+      "day": "Fredag"
     },
     {
       "title": "Der brænder en ild",
@@ -103,7 +121,10 @@
       "subtitles": ["dansk"],
       "format": "HD",
       "original_title": "Der brænder en ild",
-      "thumbnail": null
+      "thumbnail": null,
+      "hall": "2",
+      "time": "16:00",
+      "day": "Lørdag"
     },
     {
       "title": "Præriens skrappe drenge",
@@ -118,7 +139,10 @@
       "subtitles": ["dansk", "norsk", "svensk"],
       "format": "HD",
       "original_title": "Præriens skrappe drenge",
-      "thumbnail": null
+      "thumbnail": null,
+      "hall": "3",
+      "time": "19:45",
+      "day": "Søndag"
     },
     {
       "title": "Nyhavns glade gutter",
@@ -133,7 +157,10 @@
       "subtitles": ["dansk", "norsk", "svensk"],
       "format": "HD",
       "original_title": "Nyhavns glade gutter",
-      "thumbnail": null
+      "thumbnail": null,
+      "hall": "4",
+      "time": "21:35",
+      "day": "Lørdag"
     },
     {
       "title": "Baronessen fra benzintanken",
@@ -148,7 +175,10 @@
       "subtitles": ["dansk"],
       "format": "HD",
       "original_title": "Baronessen fra benzintanken",
-      "thumbnail": null
+      "thumbnail": null,
+      "hall": "5",
+      "time": "23:59",
+      "day": "Søndag"
     },
     {
       "title": "Landsbylægen",
@@ -163,7 +193,10 @@
       "subtitles": ["dansk"],
       "format": "HD",
       "original_title": "Landsbylægen",
-      "thumbnail": null
+      "thumbnail": null,
+      "hall": "1",
+      "time": "09:45",
+      "day": "Mandag"
     },
     {
       "title": "Far til fire i sneen",
@@ -178,7 +211,10 @@
       "subtitles": ["dansk"],
       "format": "HD",
       "original_title": "Far til fire i sneen",
-      "thumbnail": null
+      "thumbnail": null,
+      "hall": "2",
+      "time": "17:35",
+      "day": "Tirsdag"
     },
     {
       "title": "Fætrene på Torndal",
@@ -193,7 +229,10 @@
       "subtitles": ["dansk"],
       "format": "HD",
       "original_title": "Fætrene på Torndal",
-      "thumbnail": null
+      "thumbnail": null,
+      "hall": "3",
+      "time": "21:25",
+      "day": "Onsdag"
     },
     {
         "title": "Min søsters børn",
@@ -208,7 +247,10 @@
         "subtitles": ["dansk"],
         "format": "HD",
         "original_title": "Min søsters børn",
-        "thumbnail": null
+        "thumbnail": null,
+        "hall": "4",
+        "time": "12:45",
+        "day": "Torsdag"
     },
     {
       "title": "Guld til præriens skrappe drenge",
@@ -223,7 +265,10 @@
       "subtitles": ["dansk", "norsk", "svensk"],
       "format": "HD",
       "original_title": "Guld til præriens skrappe drenge",
-      "thumbnail": null
+      "thumbnail": null,
+      "hall": "5",
+      "time": "17:45",
+      "day": "Fredag"
     },
     {
       "title": "Ballade på Christianshavn",
@@ -238,7 +283,10 @@
       "subtitles": ["dansk"],
       "format": "HD",
       "original_title": "Ballade på Christianshavn",
-      "thumbnail": null
+      "thumbnail": null,
+      "hall": "1",
+      "time": "16:40",
+      "day": "Lørdag"
     },
     {
       "title": "Soldaterkammerater På Vagt",
@@ -253,7 +301,10 @@
       "subtitles": ["dansk", "norsk", "svensk"],
       "format": "HD",
       "original_title": "Soldaterkammerater På Vagt",
-      "thumbnail": null
+      "thumbnail": null,
+      "hall": "2",
+      "time": "12:15",
+      "day": "Fredag"
     },
     {
       "title": "Far til fire på Bornholm",
@@ -268,7 +319,10 @@
       "subtitles": ["dansk"],
       "format": "HD",
       "original_title": "Far til fire på Bornholm",
-      "thumbnail": null
+      "thumbnail": null,
+      "hall": "3",
+      "time": "19:40",
+      "day": "Søndag"
     },
     {
       "title": "Bruden fra Dragstrup",
@@ -283,7 +337,10 @@
       "subtitles": ["dansk"],
       "format": "SD",
       "original_title": "Bruden fra Dragstrup",
-      "thumbnail": null
+      "thumbnail": null,
+      "hall": "4",
+      "time": "06:45",
+      "day": "Lørdag"
     },
     {
       "title": "Sømænd og svigermødre",
@@ -298,7 +355,10 @@
       "subtitles": ["dansk", "norsk", "svensk"],
       "format": "HD",
       "original_title": "Sømænd og svigermødre",
-      "thumbnail": null
+      "thumbnail": null,
+      "hall": "5",
+      "time": "00:10",
+      "day": "Søndag"
     },
     {
       "title": "Olsen Banden i Jylland",
@@ -313,7 +373,10 @@
       "subtitles": ["dansk"],
       "format": "HD",
       "original_title": "Olsen Banden i Jylland",
-      "thumbnail": null
+      "thumbnail": null,
+      "hall": "1",
+      "time": "13:30",
+      "day": "Mandag"
     },
     {
       "title": "Mosekongen",
@@ -328,7 +391,10 @@
       "subtitles": ["dansk"],
       "format": "HD",
       "original_title": "Mosekongen",
-      "thumbnail": null
+      "thumbnail": null,
+      "hall": "2",
+      "time": "18:45",
+      "day": "Tirsdag"
     },
     {
       "title": "Far til fire med fuld musik",
@@ -343,7 +409,10 @@
       "subtitles": ["dansk"],
       "format": "HD",
       "original_title": "Far til fire med fuld musik",
-      "thumbnail": null
+      "thumbnail": null,
+      "hall": "3",
+      "time": "21:35",
+      "day": "Onsdag"
     },
     {
       "title": "Olsen Banden",
@@ -358,7 +427,10 @@
       "subtitles": ["dansk"],
       "format": "HD",
       "original_title": "Olsen Banden",
-      "thumbnail": null
+      "thumbnail": null,
+      "hall": "4",
+      "time": "08:55",
+      "day": "Torsdag"
     },
     {
       "title": "Onkel Bill fra New York",
@@ -373,7 +445,10 @@
       "subtitles": ["dansk"],
       "format": "HD",
       "original_title": "Onkel Bill fra New York",
-      "thumbnail": null
+      "thumbnail": null,
+      "hall": "5",
+      "time": "14:25",
+      "day": "Fredag"
     },
     {
       "title": "Far laver sovsen",
@@ -388,7 +463,10 @@
       "subtitles": ["dansk"],
       "format": "HD",
       "original_title": "Far laver sovsen",
-      "thumbnail": null
+      "thumbnail": null,
+      "hall": "1",
+      "time": "17:35",
+      "day": "Lørdag"
     }
 ]
 

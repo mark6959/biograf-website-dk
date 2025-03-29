@@ -27,6 +27,11 @@ document.addEventListener("DOMContentLoaded", () => {
                     <p><strong>Year:</strong> ${movie.year}</p>
                 `;
 
+                // Add click event to store movie data in localStorage
+                movieCard.addEventListener("click", () => {
+                    localStorage.setItem("selectedMovieId", movie.id);
+                });
+                
                 // Append the movie card to the grid
                 moviesGrid.appendChild(movieCard);
             });
