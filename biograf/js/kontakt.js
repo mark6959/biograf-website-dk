@@ -33,6 +33,6 @@ document.addEventListener("DOMContentLoaded", () => {
         // Hide the message after 3 seconds
         setTimeout(() => {
             newsletterMessage.style.display = "none";
-        }, 3000);
+        }, 5000);
     });
 });

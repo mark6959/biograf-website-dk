@@ -66,9 +66,19 @@ document.addEventListener("DOMContentLoaded", () => {
         const selectedYears = Array.from(document.querySelectorAll("#year-filters input:checked")).map(input => input.value);
 
         const filteredMovies = moviesData.filter(movie => {
+            // Check if the movie matches the selected genres
             const matchesGenre = selectedGenres.length === 0 || movie.genres.some(genre => selectedGenres.includes(genre));
+
+            // Check if the movie matches the selected age ratings
             const matchesAgeRating = selectedAgeRatings.length === 0 || selectedAgeRatings.includes(movie.age_rating);
-            const matchesYear = selectedYears.length === 0 || selectedYears.includes(movie.year.toString());
+
+            // Check if the movie matches the selected decades
+            const matchesYear = selectedYears.length === 0 || selectedYears.some(decade => {
+                const decadeStart = parseInt(decade, 10); // Convert decade to a number
+                const decadeEnd = decadeStart + 9; // Calculate the end of the decade
+                return movie.year >= decadeStart && movie.year <= decadeEnd; // Check if the movie year is within the decade
+            });
+
             return matchesGenre && matchesAgeRating && matchesYear;
         });
 
