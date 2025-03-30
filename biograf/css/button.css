@@ -1,3 +1,9 @@
+    .center{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
     .button {
           border: none;
           color: white;
@@ -21,3 +27,60 @@
           background-color: #04AA6D;
           color: white;
         }
+
+        img {
+          width: 30%;
+          height: auto;
+          border-radius: 0.625rem; 
+        }
+
+      .infoboxhold{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .infobox{
+        border-radius: 0.625rem; 
+        margin: 1rem;
+        height: 50rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #333;
+        border-style: solid;
+      }
+
+      @media only screen and (min-width: 600px) {
+        .container{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+        }
+
+        .infobox{
+          max-width: 40%;
+          min-width: 40%;
+        }
+      }
+
+      @media only screen and (min-width: 992px) {
+        .container{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: row;
+        }
+
+        .infobox{
+          max-width: 30%;
+          min-width: 30%;
+        }
+
+      }
+
+      
+
+      
