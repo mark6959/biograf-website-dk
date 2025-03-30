@@ -36,9 +36,9 @@
     <div class="order-summary">
         <h2>Ordreoversigt</h2>
         <ul id="cart-items">
-            <p><strong>Sæder:</strong> <span id="seatList"></span></p>
-            <p><strong>Billettype:</strong> <span id="ticketType"></span></p>
-            <p><strong>Snacks:</strong> <span id="snackList"></span></p>
+            <li><p><strong>Sæder:</strong> <span id="seatList"></span></p></li>
+            <li><p><strong>Billettype:</strong> <span id="ticketType"></span></p></li>
+            <li><p><strong>Snacks:</strong> <span id="snackList"></span></p></li>
         </ul>
         <p><strong>Total: </strong> <span id="totalPrice">0</span> kr</p>
     </div>
@@ -46,7 +46,8 @@
 
 
 <script>
-    document.addEventListener("DOMContentLoaded", () => {
+    document.addEventListener("DOMContentLoaded", () => 
+    {
         const bookingData = JSON.parse(localStorage.getItem("bookingData"));
 
         document.getElementById("seatList").textContent = bookingData.seats.join(", ");

@@ -15,7 +15,8 @@
     <h2>Totalpris: <span id="totalPrice"></span> kr</h2>
 
     <script>
-        document.addEventListener("DOMContentLoaded", () => {
+        document.addEventListener("DOMContentLoaded", () => 
+        {
             const bookingData = JSON.parse(localStorage.getItem("bookingData"));
 
             document.getElementById("seatList").textContent = bookingData.seats.join(", ");
