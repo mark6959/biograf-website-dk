@@ -21,3 +21,39 @@
           background-color: #04AA6D;
           color: white;
         }
+
+        img {
+          width: 20%; 
+          height: auto;
+          border-radius: 0.625rem; 
+        }
+
+
+      .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      .infoboxhold{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .infobox{
+        border-radius: 0.625rem; 
+        margin-left: 5rem;
+        margin-right: 5rem;
+        max-width: 30%;
+        min-width: 30%;
+        height: 50rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgb(194, 126, 9);
+        border-style: solid;
+
+      }

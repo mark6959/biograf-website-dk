@@ -5,6 +5,8 @@ body {
     font-family: Arial, sans-serif;
     box-sizing: border-box;
     font-size: 16px; 
+    background-color: #333;
+    color: white;
 }
 
 /* Top bar styling */
@@ -18,7 +20,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: #202020;
     color: white;
     padding: 0.625rem 1rem;
     box-sizing: border-box; 
