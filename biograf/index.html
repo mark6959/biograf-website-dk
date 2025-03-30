@@ -30,9 +30,15 @@
     <div class="featured-section">
         <h2>Uforglemmelige Klassikere</h2>
         <div class="movie-gallery">
-            <img src="images/filmthumbnails/olsenbanden.jpg" alt="Olsen Banden">
-            <img src="images/filmthumbnails/fartilfirepåbornholm.jpg" alt="Far til Fire på Bornholm">
-            <img src="images/filmthumbnails/mosekongen.jpg" alt="Mosekongen">
+            <a href="movietemplate.html" onclick="setMovieId(24)">
+                <img src="images/filmthumbnails/olsenbanden.jpg" alt="Olsen Banden">
+            </a>
+            <a href="movietemplate.html" onclick="setMovieId(5)">
+                <img src="images/filmthumbnails/fartilfirepåbornholm.jpg" alt="Far til Fire på Bornholm">
+            </a>
+            <a href="movietemplate.html" onclick="setMovieId(22)">
+                <img src="images/filmthumbnails/mosekongen.jpg" alt="Mosekongen">
+            </a>
         </div>
     </div>
 
@@ -47,5 +53,11 @@
             <a href="#" class="cta-button">Læs Mere</a>
         </div>
     </div>
+
+    <script>
+        function setMovieId(id) {
+            localStorage.setItem("selectedMovieId", id);
+        }
+    </script>
 </body>
 </html>
