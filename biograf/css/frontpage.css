@@ -1,0 +1,119 @@
+/* Hero Section */
+.hero-section {
+    position: relative;
+    height: 80vh;
+    background: url('images/logo/hero.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-section p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.cta-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #b00710;
+}
+
+/* Featured Section */
+.featured-section {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #f9f9f9;
+    color: black;
+}
+
+.featured-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.movie-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    padding: 0 1rem;
+}
+
+.movie-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.movie-gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* Food Section */
+.food-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem;
+    background-color: #f4f4f4;
+    color: black;
+}
+
+.food-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.food-description {
+    max-width: 500px;
+    margin-left: 2rem;
+}
+
+.food-description h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.food-description p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.food-description .cta-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.food-description .cta-button:hover {
+    background-color: #b00710;
+}
