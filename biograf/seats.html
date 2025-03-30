@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="da">
 <head>
@@ -12,11 +13,34 @@
     
     <div class="screen">Lærred</div>
     
-    <div class="seat-container">
-        <!-- Sæderne bliver genereret dynamisk i JS -->
-    </div>
+    <div class="seat-container"></div>
+
+    <h2>Vælg billettype</h2>
+    <select id="ticketType">
+        <option value="90">Standard (90 kr)</option>
+        <option value="70">Studerende (70 kr)</option>
+        <option value="60">Pensionist (60 kr)</option>
+    </select>
+
+    <h2>Tilføj snacks</h2>
+    <label><input type="checkbox" value="50" class="snack"> Popcorn (50 kr)</label><br>
+    <label><input type="checkbox" value="30" class="snack"> Sodavand (30 kr)</label><br>
+    <label><input type="checkbox" value="40" class="snack"> Nachos (40 kr)</label><br>
+
+    <h2>Totalpris: <span id="totalPrice">0</span> kr</h2>
 
     <button id="confirmSelection">Bekræft Valg</button>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const bookingData = JSON.parse(localStorage.getItem("bookingData"));
+
+            document.getElementById("seatList").textContent = bookingData.seats.join(", ");
+            document.getElementById("ticketType").textContent = bookingData.ticketPrice + " kr pr. billet";
+            document.getElementById("snackList").textContent = bookingData.snacks.length ? bookingData.snacks.join(", ") : "Ingen snacks";
+            document.getElementById("totalPrice").textContent = bookingData.total;
+        });
+    </script>
 
     <script src="js/seats.js"></script>
 </body>

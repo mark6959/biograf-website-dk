@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Betalingsside</title>
+    <link rel="stylesheet" href="css/checkout.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="payment-form">
+        <h1>Kortoplysninger</h1>
+        <label for="card-number">Kortnummer</label>
+        <input type="text" id="card-number" placeholder="1234 5678 9012 3456">
+        
+        <label for="expiry-month">Udløbsmåned - mm</label>
+        <input type="text" id="expiry-month" placeholder="MM">
+        
+        <label for="expiry-year">Udløbsår - yyyy</label>
+        <input type="text" id="expiry-year" placeholder="YYYY">
+        
+        <label for="cvv">Kontrolcifre</label>
+        <input type="text" id="cvv" placeholder="CVV">
+
+        <label for="card-holder">Kortholders navn</label>
+        <input type="text" id="card-holder" placeholder="Dit navn">
+        
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Din email">
+        
+        <button id="pay-button">Gennemfør betaling</button>
+    </div>
+
+    <div class="order-summary">
+        <h2>Ordreoversigt</h2>
+        <ul id="cart-items">
+            <p><strong>Sæder:</strong> <span id="seatList"></span></p>
+            <p><strong>Billettype:</strong> <span id="ticketType"></span></p>
+            <p><strong>Snacks:</strong> <span id="snackList"></span></p>
+        </ul>
+        <p><strong>Total: </strong> <span id="totalPrice">0</span> kr</p>
+    </div>
+</div>
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const bookingData = JSON.parse(localStorage.getItem("bookingData"));
+
+        document.getElementById("seatList").textContent = bookingData.seats.join(", ");
+        document.getElementById("ticketType").textContent = bookingData.ticketPrice + " kr pr. billet";
+        document.getElementById("snackList").textContent = bookingData.snacks.length ? bookingData.snacks.join(", ") : "Ingen snacks";
+        document.getElementById("totalPrice").textContent = bookingData.total;
+    });
+</script>
+
+<script src="js/checkout.js"></script>
+
+
+
+</body>
+</html>

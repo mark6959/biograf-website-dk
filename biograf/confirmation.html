@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bekræftelse</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Din booking er bekræftet!</h1>
+    <p><strong>Sæder:</strong> <span id="seatList"></span></p>
+    <p><strong>Billettype:</strong> <span id="ticketType"></span></p>
+    <p><strong>Snacks:</strong> <span id="snackList"></span></p>
+    <h2>Totalpris: <span id="totalPrice"></span> kr</h2>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const bookingData = JSON.parse(localStorage.getItem("bookingData"));
+
+            document.getElementById("seatList").textContent = bookingData.seats.join(", ");
+            document.getElementById("ticketType").textContent = bookingData.ticketPrice + " kr pr. billet";
+            document.getElementById("snackList").textContent = bookingData.snacks.length ? bookingData.snacks.join(", ") : "Ingen snacks";
+            document.getElementById("totalPrice").textContent = bookingData.total;
+        });
+    </script>
+
+</body>
+</html>
