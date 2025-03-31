@@ -10,7 +10,7 @@
 }
 
 .hero-overlay {
-    background-color: #333
+    background-color: #333;
     padding: 2rem;
     border-radius: 10px;
 }
@@ -44,8 +44,11 @@
 .featured-section {
     text-align: center;
     padding: 2rem 1rem;
-    background-color: #333; /* Set background color to grey */
-    color: white; /* Ensure text is readable on the grey background */
+    background-color: #333; 
+    color: white; 
+    width: 100%; 
+    max-width: 1200px;
+    margin: 0 auto; 
 }
 
 .featured-section h2 {
@@ -55,20 +58,22 @@
 
 .movie-gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     gap: 1.5rem;
     padding: 0 1rem;
 }
 
 .movie-gallery img {
-    width: 100%;
-    height: auto;
+    width: 100%; 
+    height: auto; 
+    max-width: 100%; 
     border-radius: 10px;
     transition: transform 0.3s ease;
+    object-fit: cover; 
 }
 
 .movie-gallery img:hover {
-    transform: scale(1.05);
+    transform: scale(1.05); 
 }
 
 /* Food Section */
@@ -77,8 +82,8 @@
     justify-content: center;
     align-items: center;
     padding: 2rem 1rem;
-    background-color: #333
-    color: black;
+    background-color: #333;
+    color: white;
 }
 
 .food-image img {
